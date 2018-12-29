@@ -4,15 +4,13 @@
         "name" : "Example Item",
         "type" : "potion, armor, weapon, etc.",
         "attn" : "Attunement vs No Attunement",
-        "Summary" : "This item does blah blah blah",
-        "uses" : "Number of uses per long rest (where applicable)"
+        "summary" : "This item does blah blah blah"
     },
     {
         "name" : "Potion of Climbing",
         "type" : "potion, common",
         "attn" : "No Attunement",
-        "Summary" : "When you drink this potion, you gain a climbing speed equal to your walking speed for 1 hour.  During this time, you have advantage on Strength(Athletics) checks you make to climb.  The potion is separated into brown, silver, and gray layers resemvling bands of stone.  Shaking the bottle fails to mix the colors.",
-        "uses" : "1 time use"
+        "summary" : "When you drink this potion, you gain a climbing speed equal to your walking speed for 1 hour.  During this time, you have advantage on Strength(Athletics) checks you make to climb.  The potion is separated into brown, silver, and gray layers resemvling bands of stone.  Shaking the bottle fails to mix the colors."
     }
   ]
 }
