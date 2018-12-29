@@ -10,40 +10,19 @@
         "name" : "Potion of Climbing",
         "type" : "potion, common",
         "attn" : "No Attunement",
-        "summary" : "When you drink this potion, you gain a climbing speed
-          equal to your walking speed for 1 hour.  During this time, you have
-          advantage on Strength(Athletics) checks you make to climb.  The
-          potion is separated into brown, silver, and gray layers resemvling
-          bands of stone.  Shaking the bottle fails to mix the colors."
+        "summary" : "When you drink this potion, you gain a climbing speed equal to your walking speed for 1 hour.  During this time, you have advantage on Strength(Athletics) checks you make to climb.  The potion is separated into brown, silver, and gray layers resemvling bands of stone.  Shaking the bottle fails to mix the colors."
     },
     {
         "name" : "Cloak of Displacement",
         "type" : "Wondrous item, rare",
         "attn" : "Needs Attunement",
-        "summary" : "While you wear this cloak, it projects an illusion that
-          you appear to be standing in a place near your actual location,
-          causing any creature to have disadvantage on attack rolls against you.
-          If you take damage, the property ceases to function until the start
-          of your next turn.  This property is suppressed while you are
-          incapacitated, restrained, or otherwise unable to move."
+        "summary" : "While you wear this cloak, it projects an illusion that you appear to be standing in a place near your actual location, causing any creature to have disadvantage on attack rolls against you. If you take damage, the property ceases to function until the start of your next turn.  This property is suppressed while you are incapacitated, restrained, or otherwise unable to move."
     },
     {
         "name" : "Ring of the Ram",
         "type" : "Ring, rare",
         "attn" : "Needs Attunement",
-        "summary" : "This ring has 3 charges, and it regains 1d3 expended
-          charges daily at dawn. While wearing the ring, you can
-          use an action to expend 1 to 3 of its charges to attack
-          one creature you can see within 60 feet of you. The ring
-          produces a spectral ram's head and makes its attack roll
-          with a +7 bonus. On a hit, for each charge you spend,
-          the target takes 2d10 force damage and is pushed 5 feet
-          away from you.
-          Alternatively, you can expend 1 to 3 of the ring's
-          charges as an action to try to break an object you can
-          see within 60 feet of you that isn't being worn or carried.
-          The ring makes a Strength check with a +5 bonus for
-          each charge you spend. "
+        "summary" : "This ring has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing the ring, you can use an action to expend 1 to 3 of its charges to attack one creature you can see within 60 feet of you. The ring produces a spectral ram's head and makes its attack roll with a +7 bonus. On a hit, for each charge you spend, the target takes 2d10 force damage and is pushed 5 feet away from you.\nAlternatively, you can expend 1 to 3 of the ring's charges as an action to try to break an object you can see within 60 feet of you that isn't being worn or carried. The ring makes a Strength check with a +5 bonus for each charge you spend. "
     }
   ]
 }
