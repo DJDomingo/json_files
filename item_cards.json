@@ -113,6 +113,6 @@
         "type" : "Wondrous item, common",
         "summary" : "This amulet of a hand when used casts the Detect Magic Spell. The hand begins to float and points in the direction of the strongest source of magic in a 30ft radius from itself.",
         "homeBrew" : false
-    },
+    }
   ]
 }
