@@ -3,22 +3,116 @@
     {
         "name" : "Example Item",
         "type" : "potion, armor, weapon, etc., Attunement",
-        "summary" : "This item does blah blah blah"
+        "summary" : "This item does blah blah blah",
+        "homeBrew" : false
     },
     {
         "name" : "Potion of Climbing",
         "type" : "Potion, common",
-        "summary" : "When you drink this potion, you gain a climbing speed equal to your walking speed for 1 hour.  During this time, you have advantage on Strength(Athletics) checks you make to climb.  The potion is separated into brown, silver, and gray layers resemvling bands of stone.  Shaking the bottle fails to mix the colors."
+        "summary" : "When you drink this potion, you gain a climbing speed equal to your walking speed for 1 hour.  During this time, you have advantage on Strength(Athletics) checks you make to climb.  The potion is separated into brown, silver, and gray layers resemvling bands of stone.  Shaking the bottle fails to mix the colors.",
+        "homeBrew" : false
+    },
+    {
+        "name" : "Potions of Fire Breath",
+        "type" : "Potion, uncommon",
+        "summary" : "After drinking this potion, you can use a bonus action to exhale fire at a target within 30ft of you. The target must make a DC 13 Dexterity saving throw, taking 4d6 fire damage on a failed save, or half as much damage on a successful one. The effect ends after you exhale the fire 3 times or when 1hr has passed. This orange liquid flickers, and smoke fills the top of the container and wafts out whenever it is opened.",
+        "homeBrew" : false
+    },
+    {
+        "name" : "Potion of Gaseous Form",
+        "type" : "Potion, rare",
+        "summary" : "When you drink this potion, you gain the effect of the gaseous form spell for 1hr (no concentration required) or until you end the effect as a bonus action. This potion's container seems to hold fog that moves and pours like water.",
+        "homeBrew" : false
+    },
+    {
+        "name" : "Potions of Healing",
+        "type" : "Potion, common - very rare",
+        "summary" : "When you drink these potions, you health according to the below.\nHealing: 2d4 + 2\nGreater Healing: 4d4 + 4\nSuperior Healing: 8d4 + 8\nSupreme Healing: 10d4 + 20",
+        "homeBrew" : false
+    },
+    {
+        "name" : "Potions of Heroism",
+        "type" : "Potion, rare",
+        "summary" : "For 1hr after drinking it, you gain 10 temporary hit points that last for 1hr. For the same duration, you are under the effect of the Bless Spell (no concentration required). This blue potion bubbles and steams as if boiling.",
+        "homeBrew" : false
+    },
+    {
+        "name" : "Amulet of the Ethereal Plane",
+        "type" : "Wondrous item, rare",
+        "summary" : "When the Amulet is used, it enables the user to traverse the Ethereal Plane for up to 10min.  When in the Ethereal Plane they can observe and listen to anything on the Material Plane, but are unable to interact with it. While under this effect, your physical body goes limp. The Amulet can be used 1 time per Long Rest.",
+        "homeBrew" : true
+    },
+    {
+        "name" : "Amulet of Firebolt",
+        "type" : "Wondrous item, uncommon",
+        "summary" : "While you wear this amulet, you can cast the Fire Bolt spell as an action with a +1 spell attack bonus. The amulet has 3 charges which reset after a Long Rest.  If multiple charges are used for one attack, roll an extra damage die per extra charge.",
+        "homeBrew" : true
+    },
+    {
+        "name" : "Boots of ElvenKind",
+        "type" : "Wondrous item, uncommon",
+        "summary" : "While you wear these boots, your steps make no sound, regardless of the surface you are moving across. You also have advantage on Dexterity(Stealth) checks that rely on moving silently.",
+        "homeBrew" : false
+    },
+    {
+        "name" : "Boots of Fast Walking",
+        "type" : "Wondrous item, rare, Needs Attunement",
+        "summary" : "While you wear these boots, you gain a +10 to your walking speed",
+        "homeBrew" : true
+    },
+    {
+        "name" : "Circlet of Concentration",
+        "type" : "Wondrous item, rare, Needs Attunement",
+        "summary" : "When attuned this allows a spellcaster to concentrate on two spells at once. If they fail a concentration check they lose both spells.",
+        "homeBrew" : true
     },
     {
         "name" : "Cloak of Displacement",
         "type" : "Wondrous item, rare, Needs Attunement",
-        "summary" : "While you wear this cloak, it projects an illusion that you appear to be standing in a place near your actual location, causing any creature to have disadvantage on attack rolls against you. If you take damage, the property ceases to function until the start of your next turn.  This property is suppressed while you are incapacitated, restrained, or otherwise unable to move."
+        "summary" : "While you wear this cloak, it projects an illusion that you appear to be standing in a place near your actual location, causing any creature to have disadvantage on attack rolls against you. If you take damage, the property ceases to function until the start of your next turn.  This property is suppressed while you are incapacitated, restrained, or otherwise unable to move.",
+        "homeBrew" : false
+    },
+    {
+        "name" : "Clothes of Mending",
+        "type" : "Wondrous item, common",
+        "summary" : "This elegant outfit of traveler's clothes magically mends itself to counteract daily wear and tear. Pieces of the outfit that are destroyed can't be repaired this way.",
+        "homeBrew" : false
+    },
+    {
+        "name" : "Hat of Disguise",
+        "type" : "Wondrous item, rare, Needs Attunement",
+        "summary" : "While wearing this hat, you can use an action to cast the Disguise Self spell from it at will.  The spell ends if the hat is removed.",
+        "homeBrew" : false
+    },
+    {
+        "name" : "Veteran's Cane",
+        "type" : "Wondrous item, common",
+        "summary" : "When you grasp this walking cane and use a bonus action to speak the command word, it transforms into an ordinary longsword and ceases to be magical.",
+        "homeBrew" : false
+    },
+    {
+        "name" : "Ring of Invisibility",
+        "type" : "Ring, Legendary, Needs Attunement",
+        "summary" : "While wearing this ring you can turn invisible as an action. Anything you are wearing or carrying is invisible with you. You remain invisible until the ring is removed, until you attack or cast a spell, or until you use a bonus action to become visible again.\nCan be used 3 times per Long Rest",
+        "homeBrew" : true
     },
     {
         "name" : "Ring of the Ram",
         "type" : "Ring, rare, Needs Attunement",
-        "summary" : "This ring has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing the ring, you can use an action to expend 1 to 3 of its charges to attack one creature you can see within 60 feet of you. The ring produces a spectral ram's head and makes its attack roll with a +7 bonus. On a hit, for each charge you spend, the target takes 2d10 force damage and is pushed 5 feet away from you.\nAlternatively, you can expend 1 to 3 of the ring's charges as an action to try to break an object you can see within 60 feet of you that isn't being worn or carried. The ring makes a Strength check with a +5 bonus for each charge you spend. "
-    }
+        "summary" : "This ring has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing the ring, you can use an action to expend 1 to 3 of its charges to attack one creature you can see within 60 feet of you. The ring produces a spectral ram's head and makes its attack roll with a +7 bonus. On a hit, for each charge you spend, the target takes 2d10 force damage and is pushed 5 feet away from you.\nAlternatively, you can expend 1 to 3 of the ring's charges as an action to try to break an object you can see within 60 feet of you that isn't being worn or carried. The ring makes a Strength check with a +5 bonus for each charge you spend. ",
+        "homeBrew" : false
+    },
+    {
+        "name" : "Ring of Spell Storage",
+        "type" : "Ring, rare, Needs Attunement",
+        "summary" : "This ring stores 1 spell cast into it. The spell may be of level 6 or below. While wearing this ring, you can cast any spell stored in it. The spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster, but otherwise treated as if you cast the spell. The spell cast from the ring is no longer stored in it, freeing up space.",
+        "homeBrew" : true
+    },
+    {
+        "name" : "The Pointer",
+        "type" : "Wondrous item, common",
+        "summary" : "This amulet of a hand when used casts the Detect Magic Spell. The hand begins to float and points in the direction of the strongest source of magic in a 30ft radius from itself.",
+        "homeBrew" : false
+    },
   ]
 }
