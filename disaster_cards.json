@@ -1,0 +1,16 @@
+{
+  "disaster-cards": [
+    {
+        "name" : "Asteroids",
+        "type" : "Natural Disaster",
+        "story" : "It's raining rocks.",
+        "description" : "Ship Takes 1 dmg each turn. Resolved with Battery placed in Cpt Quarters"
+    },
+	{
+        "name" : "Blackhole",
+        "type" : "Natural Disaster",
+        "story" : "Sure is dark in there.",
+        "description" : "It'll do something..."
+    }
+  ]
+}

@@ -19,6 +19,18 @@
         "homeBrew" : false
     },
     {
+        "name" : "Potions of Hill Giant Strength",
+        "type" : "Potion, uncommon",
+        "summary" : "When you drink this potion, your strenth score changes to 21 for 1hr. The potion has no effect if your Strength is equal to or greater than the effect. This potion's transparent liquid has floating in it a sliver of a fingernail from a Hill Giant.",
+        "homeBrew" : false
+    },
+    {
+        "name" : "Potions of Growth",
+        "type" : "Potion, uncommon",
+        "summary" : "When you drink this potion, you gain the enlarge effect of the enlarge/reduce spell for 1d4hrs (no concentration required). The red in the potion's liquid continuously expands from a tiny bead to color the clear liquid around it and then contracts. Shaking the bottle fails to interrupt this process.",
+        "homeBrew" : false
+    },
+    {
         "name" : "Potions of Healing",
         "type" : "Potion, common - very rare",
         "summary" : "When you drink these potions, you health according to the below.\nHealing: 2d4 + 2\nGreater Healing: 4d4 + 4\nSuperior Healing: 8d4 + 8\nSupreme Healing: 10d4 + 20",
@@ -28,6 +40,12 @@
         "name" : "Potions of Heroism",
         "type" : "Potion, rare",
         "summary" : "For 1hr after drinking it, you gain 10 temporary hit points that last for 1hr. For the same duration, you are under the effect of the Bless Spell (no concentration required). This blue potion bubbles and steams as if boiling.",
+        "homeBrew" : false
+    },
+    {
+        "name" : "Potions of Resistance",
+        "type" : "Potion, uncommon",
+        "summary" : "When you drink this potion, you gain resistance to one type of damage for 1hr. DM chooses or determines it randomly from the options listed in the book.",
         "homeBrew" : false
     },
     {
@@ -55,6 +73,12 @@
         "homeBrew" : true
     },
     {
+        "name" : "Boots of Speed",
+        "type" : "Wondrous item, rare, Needs Attunement",
+        "summary" : "While you wear these boots, you can use a bonus action and click the boots' heels together. If you do, the boots double your walking speed, and any creature that makes an opportunity attack against you has disadvantage on the attack roll. If you click your heels together again, you end the effect. When the boots' property has been used for a total of 10min, the magic ceases to function until you finish a long rest.",
+        "homeBrew" : false
+    },
+    {
         "name" : "Circlet of Concentration",
         "type" : "Wondrous item, rare, Needs Attunement",
         "summary" : "When attuned this allows a spellcaster to concentrate on two spells at once. If they fail a concentration check they lose both spells.",
@@ -68,8 +92,26 @@
     },
     {
         "name" : "Clothes of Mending",
+        "type" : "Wondrous item, uncommon, Needs Attunement",
+        "summary" : "You gain +1 bonus to AC and saving throws while you wear this cloak.",
+        "homeBrew" : false
+    },
+    {
+        "name" : "Clothes of Protection",
         "type" : "Wondrous item, common",
         "summary" : "This elegant outfit of traveler's clothes magically mends itself to counteract daily wear and tear. Pieces of the outfit that are destroyed can't be repaired this way.",
+        "homeBrew" : false
+    },
+    {
+        "name" : "Gauntlets of Ogre Power",
+        "type" : "Wondrous item, uncommon, Needs Attunement",
+        "summary" : "Your Strength score is 19 while you wear these gauntlests. They have no effect on you if your Strength is already 19 or higher.",
+        "homeBrew" : false
+    },
+    {
+        "name" : "Goggles of Night",
+        "type" : "Wondrous item, uncommon",
+        "summary" : "While wearing these dark lenses, you have darkvision out to a range of 60ft. If you already have darkvision, wearing the goggles increases its range by 60ft.",
         "homeBrew" : false
     },
     {
@@ -79,9 +121,27 @@
         "homeBrew" : false
     },
     {
+        "name" : "Javelin of Lightning",
+        "type" : "Weapon(javelin), uncommon",
+        "summary" : "This javelin is a magic weapon. When you hurl it and speak its command word, it transforms into a bolt of lightning, forming a line 5ft wide that extends out from you to a target within 120ft. Each creature in the line excluding you and the target must make a DC 13 Dexterity saving throw, taking 4d6 lightning damage on a successful one. The ligtning bolt turns back into a javelin when it reaches the target. Make a ranged weapon attack against the target. On a hit, the target takes damage from the javelin plus 4d6 lightning damage. The javelin's property can't be used again until the next dawn. In the meantime, the javelin can still be used as a magic weapon.",
+        "homeBrew" : false
+    },
+    {
+        "name" : "Mantle of Spell Resistance",
+        "type" : "Wondrous item, rare, Needs Attunement",
+        "summary" : "You have advantage on saving throws against spells while you wear this cloak.",
+        "homeBrew" : false
+    },
+    {
         "name" : "Veteran's Cane",
         "type" : "Wondrous item, common",
         "summary" : "When you grasp this walking cane and use a bonus action to speak the command word, it transforms into an ordinary longsword and ceases to be magical.",
+        "homeBrew" : false
+    },
+    {
+        "name" : "Ring of the Evasion",
+        "type" : "Ring, rare, Needs Attunement",
+        "summary" : "This ring has 3 charges, and it regains 1d3 expended charges daily at dawn. When you fail a Dexterity saving throw while wearing it, you can use your reaction to expend 1 of its charges to succeed on that saving throw instead.",
         "homeBrew" : false
     },
     {
@@ -93,7 +153,13 @@
     {
         "name" : "Ring of the Ram",
         "type" : "Ring, rare, Needs Attunement",
-        "summary" : "This ring has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing the ring, you can use an action to expend 1 to 3 of its charges to attack one creature you can see within 60 feet of you. The ring produces a spectral ram's head and makes its attack roll with a +7 bonus. On a hit, for each charge you spend, the target takes 2d10 force damage and is pushed 5 feet away from you.\nAlternatively, you can expend 1 to 3 of the ring's charges as an action to try to break an object you can see within 60 feet of you that isn't being worn or carried. The ring makes a Strength check with a +5 bonus for each charge you spend. ",
+        "summary" : "This ring has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing the ring, you can use an action to expend 1 to 3 of its charges to attack one creature you can see within 60 feet of you. The ring produces a spectral ram's head and makes its attack roll with a +7 bonus. On a hit, for each charge you spend, the target takes 2d10 force damage and is pushed 5 feet away from you.\nAlternatively, you can expend 1 to 3 of the ring's charges as an action to try to break an object you can see within 60 feet of you that isn't being worn or carried. The ring makes a Strength check with a +5 bonus for each charge you spend.",
+        "homeBrew" : false
+    },
+    {
+        "name" : "Ring of Resistance",
+        "type" : "Ring, rare, Needs Attunement",
+        "summary" : "You have resistance to one damage type while wearing this ring. The gem in the ring indicates the type, which the DM chooses or determines randomly. [Refer to the book]",
         "homeBrew" : false
     },
     {
@@ -106,7 +172,7 @@
         "name" : "The Pointer",
         "type" : "Wondrous item, common",
         "summary" : "This amulet of a hand when used casts the Detect Magic Spell. The hand begins to float and points in the direction of the strongest source of magic in a 30ft radius from itself.",
-        "homeBrew" : false
+        "homeBrew" : true
     }
   ]
 }
