@@ -11,6 +11,116 @@
         "type" : "Natural Disaster",
         "story" : "Sure is dark in there.",
         "description" : "It'll do something..."
+    },
+	{
+        "name" : "Gamma Ray Burst",
+        "type" : "Natural Disaster",
+        "story" : "You wouldn't like me when I'm angry.",
+        "description" : "It'll do something..."
+    },
+	{
+        "name" : "Solar Flare -",
+        "type" : "Natural Disaster",
+        "story" : "Final Flash!",
+        "description" : "It'll do something..."
+    },
+	{
+        "name" : "Supernova",
+        "type" : "Natural Disaster",
+        "story" : "BaddaBing BaddBOOM!",
+        "description" : "It'll do something..."
+    },
+	{
+        "name" : "Crashed Ship Debris",
+        "type" : "Natural Disaster",
+        "story" : "You should see the other guy",
+        "description" : "Roll 1d6. 5+ find 2 items, 4- pirates steal 1 item from each player."
+    },
+	{
+        "name" : "Destroyed Planet",
+        "type" : "Natural Disaster",
+        "story" : "You should see the other guy",
+        "description" : "It'll do something..."
+    },
+	{
+        "name" : "Heat Zone",
+        "type" : "Natural Disaster",
+        "story" : "You should see the other guy",
+        "description" : "Roll 1d6 4 times. Room corresponding to the number is Burning (Burns don't stack)"
+    },
+	{
+        "name" : "Space Time Distortion",
+        "type" : "Natural Disaster",
+        "story" : "You should see the other guy",
+        "description" : "It'll do something..."
+    },
+	{
+        "name" : "Clumsy Footing",
+        "type" : "Natural Disaster",
+        "story" : "Big Dummy",
+        "description" : "You trip and drop 1d4 items of your choosing"
+    },
+	{
+        "name" : "Hole in One",
+        "type" : "Natural Disaster",
+        "story" : "There's a hole in my backpack dear Liza",
+        "description" : "You get a small bag blocker token. Can be repaired with a Repair Kit"
+    },
+	{
+        "name" : "Holey Moley!",
+        "type" : "Natural Disaster",
+        "story" : "Aperture issues",
+        "description" : "You got a Big bag blocker token. Can be repaired with a Repair Kit"
+    },
+	{
+        "name" : "Intergalactic Storm",
+        "type" : "Natural Disaster",
+        "story" : "You should see the other guy",
+        "description" : "It'll do something..."
+    }
+  ],
+  "positive-cards": [
+	{
+        "name" : "Intergalactic Storm",
+        "type" : "Random Event",
+        "story" : "That wasn't so Bad",
+        "description" : "It'll do something..."
+    },
+	{
+        "name" : "Solar Flare",
+        "type" : "Random Event",
+        "story" : "That wasn't so Bad",
+        "description" : "It'll do something..."
+    },
+	{
+        "name" : "Gas Giant (fuel scooping)",
+        "type" : "Random Event",
+        "story" : "That wasn't so Bad",
+        "description" : "Advance 1 jump forward"
+    },
+	{
+        "name" : "What's this?",
+        "type" : "Random Event",
+        "story" : "That wasn't so Bad",
+        "description" : "May choose an item to find and add it to your inventory or drop it"
+    },
+	{
+        "name" : "Lucky Break",
+        "type" : "Random Event",
+        "story" : "That wasn't so Bad",
+        "description" : "Remove 1 current Disaster"
+    },
+	{
+        "name" : "Do a Barrel Roll",
+        "type" : "Random Event",
+        "story" : "That wasn't so Bad",
+        "description" : "Reroll dropped item locations"
+    },
+	{
+        "name" : "Leave an item, take an item",
+        "type" : "Random Event",
+        "story" : "That wasn't so Bad",
+        "description" : "All players pick one item and pass it to their left."
     }
   ]
 }
