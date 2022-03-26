@@ -129,98 +129,98 @@
 	{
         "name" : "Auto Pilot Off",
         "type" : "Ship Location",
-		"location:" : "Cockpit"
+		"location:" : "Cockpit",
         "story" : "Ship goes off course.",
         "description" : "While active, no Jumps can be made. Activate the Cockpit with a 3+ on a 1d6"
     },
 	{
         "name" : "Bad Medicine",
         "type" : "Ship Location",
-		"location:" : "MedBay"
+		"location:" : "MedBay",
         "story" : "Needs Warranty",
         "description" : "Whoever was last inside MedBay gets infected status (if none, roll)"
     },
 	{
         "name" : "Faulty Nurse",
         "type" : "Ship Location",
-		"location:" : "MedBay"
+		"location:" : "MedBay",
         "story" : "Needs Warranty",
         "description" : "No healing can be done. Can be fixed using 2 actions"
     },
 	{
         "name" : "Buggy Equipment",
         "type" : "Ship Location",
-		"location:" : "MedBay"
+		"location:" : "MedBay",
         "story" : "Needs Warranty",
         "description" : "All healing done is halved. Fixed using Wrench"
     },
 	{
         "name" : "Core Overheat",
         "type" : "Ship Location",
-		"location:" : "Engineering"
+		"location:" : "Engineering",
         "story" : "Core is overheating. If not cooled in 3 jumps will cause 5 damage to ship & those in room",
         "description" : "Cooled using Extinguisher & Battery"
     },
 	{
         "name" : "Loose Bolts",
         "type" : "Ship Location",
-		"location:" : "Engineering"
+		"location:" : "Engineering",
         "story" : "Random doors seem to seal/unseal each player's turn",
         "description" : "Roll 2d6 to see what doors flip state. Fixed using Wrench & Welder"
     },
 	{
         "name" : "False Alarm",
         "type" : "Ship Location",
-		"location:" : "Engineering"
+		"location:" : "Engineering",
         "story" : "Needs Warranty",
         "description" : "Check Slides..."
     },
 	{
         "name" : "Ammo Spill",
         "type" : "Ship Location",
-		"location:" : "Armory"
+		"location:" : "Armory",
         "story" : "1.Pistol 2.Shotgun 3.Rifle 4.GLauncher",
         "description" : "Roll 1d4 to decide what ammo is received. Can be reorganized using a Broom and 2 actions"
     },
 	{
         "name" : "Bad Locks",
         "type" : "Ship Location",
-		"location:" : "Armory"
+		"location:" : "Armory",
         "story" : "Door is jammed shut",
         "description" : "can only be fixed using a Crowbar"
     },
 	{
         "name" : "Grenade!!!",
         "type" : "Ship Location",
-		"location:" : "Armory"
+		"location:" : "Armory",
         "story" : "Loose grenade goes off",
         "description" : "Deal 1d6 damage to all those armory. Also remove all dropped items in Armory. Start Burning?"
     },
 	{
         "name" : "Power Shortage",
         "type" : "Ship Location",
-		"location:" : "Main Room"
+		"location:" : "Main Room",
         "story" : "See Slides...",
         "description" : "All doors become shut. Can leave by using 1 action or expend 1 Crowbar. Power can be turned on by using a Battery"
     },
 	{
         "name" : "Gravity Lift",
         "type" : "Ship Location",
-		"location:" : "Main Room"
+		"location:" : "Main Room",
         "story" : "Time to Train",
         "description" : "Movement now takes 2 actions (unless wearing Mag-Boots). Can be shutoff in Main Room using HackChip"
     },
 	{
         "name" : "Loose Parasite",
         "type" : "Ship Location",
-		"location:" : "Laboratory"
+		"location:" : "Laboratory",
         "story" : "Player who drew card has encounterd a infectious virus",
         "description" : "Player gets Infected. They pass it anyone they share a room with (even while moving). Can be cured using Antidote or Laboratory action. Players who recieve the virus cannot pass it."
     },
 	{
         "name" : "Chemical Explosion",
         "type" : "Ship Location",
-		"location:" : "Laboratory"
+		"location:" : "Laboratory",
         "story" : "Needs Warranty",
         "description" : "causes 1d4 damage and Burn to all players in Lab. All dropped items are destroyed and room is Burning. Need FireExtinguisher to put out fire."
     }
