@@ -230,64 +230,64 @@
 	{
         "name" : "Stunning Robot",
         "type" : "Robot",
-		"armor" : 1
-		"health" : 4
+		"armor" : 1,
+		"health" : 4,
         "story" : "They Mad",
         "description" : "Moves to Closest Unstunned player. 4+ on d6, player is stunned"
     },
 	{
         "name" : "Z-nomorph",
         "type" : "Parasite",
-		"armor" : 6
-		"health" : 3
+		"armor" : 6,
+		"health" : 3,
         "story" : "They Mad",
         "description" : "d6 to players. Weak to fire (ignores armor)"
     },
 	{
         "name" : "Bloburt",
         "type" : "Parasite",
-		"armor" : 0
-		"health" : 6
+		"armor" : 0,
+		"health" : 6,
         "story" : "They Mad",
         "description" : "Does 1 damage to ship."
     },
 	{
         "name" : "Big Bloburt",
         "type" : "Parasite",
-		"armor" : 1
-		"health" : 10
+		"armor" : 1,
+		"health" : 10,
         "story" : "They Mad",
         "description" : "Does 1d4 damage to ship."
     },
 	{
         "name" : "Vacu-Bot",
         "type" : "Robot",
-		"armor" : 0
-		"health" : 3
+		"armor" : 0,
+		"health" : 3,
         "story" : "They Mad",
         "description" : "Moves to new room (clockwise) and destroys all dropped items in it"
     },
 	{
         "name" : "Looter",
         "type" : "Pirate",
-		"armor" : 1
-		"health" : 4
+		"armor" : 1,
+		"health" : 4,
         "story" : "They Mad",
         "description" : "moves to player with most items and deals 1d4 damage. When defeated drops 3 random items"
     },
 	{
         "name" : "Sneaky Stabber",
         "type" : "Pirate",
-		"armor" : 3
-		"health" : 2
+		"armor" : 3,
+		"health" : 2,
         "story" : "They Mad",
         "description" : "Forces player to drop 1d4 items when dealing 3+ damage on a d4."
     },
 	{
         "name" : "B.R.U.C.E",
         "type" : "Robot",
-		"armor" : 2
-		"health" : 3
+		"armor" : 2,
+		"health" : 3,
         "story" : "They Mad",
         "description" : "Roll for room placement. While alive room can't be activated and door is locked. Door can be fixed with HackChip"
     }
